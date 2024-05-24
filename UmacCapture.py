@@ -12,7 +12,7 @@ class ScreenCaptureApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Screen Capture App")
-        self.root.geometry("300x350")
+        self.root.geometry("300x360")
         self.interval = 1
         self.capturing = False
         self.config_file = "config.json"
